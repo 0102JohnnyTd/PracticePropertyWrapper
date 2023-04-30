@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct ParentView: View {
+struct BindingParentView: View {
     @State private var count = 0
     var body: some View {
-        ChildView(count: $count)
+        BindingContentView(count: $count)
             .frame(width: .infinity)
     }
 }
-struct ChildView: View {
+
+struct BindingContentView: View {
     // @Bindingの望ましい使用条件
        // ①値型のデータ
        // ②データを更新するが、データの発生源が外部から渡される場合
@@ -30,14 +31,8 @@ struct ChildView: View {
     }
 }
 
-struct BindingContentView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
 struct BindingContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ParentView()
+        BindingParentView()
     }
 }

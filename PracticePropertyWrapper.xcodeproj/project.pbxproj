@@ -13,6 +13,7 @@
 		1CC8FE6029FCAAC3006A6284 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5F29FCAAC3006A6284 /* Preview Assets.xcassets */; };
 		1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE6829FD1105006A6284 /* BindingContentView.swift */; };
 		1CC8FE6D29FDFBF9006A6284 /* StateObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */; };
+		1CC8FE7129FE5906006A6284 /* ObservedObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1CC8FE5F29FCAAC3006A6284 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CC8FE6829FD1105006A6284 /* BindingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingContentView.swift; sourceTree = "<group>"; };
 		1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectContentView.swift; sourceTree = "<group>"; };
+		1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */,
+				1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */,
 			);
 			path = ReferenceType;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				1CC8FE5B29FCAAC0006A6284 /* StateContentView.swift in Sources */,
 				1CC8FE6D29FDFBF9006A6284 /* StateObjectContentView.swift in Sources */,
+				1CC8FE7129FE5906006A6284 /* ObservedObjectContentView.swift in Sources */,
 				1CC8FE5929FCAAC0006A6284 /* PracticePropertyWrapperApp.swift in Sources */,
 				1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */,
 			);
