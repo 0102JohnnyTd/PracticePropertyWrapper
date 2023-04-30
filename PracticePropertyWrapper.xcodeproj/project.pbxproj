@@ -11,6 +11,7 @@
 		1CC8FE5B29FCAAC0006A6284 /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5A29FCAAC0006A6284 /* StateContentView.swift */; };
 		1CC8FE5D29FCAAC3006A6284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5C29FCAAC3006A6284 /* Assets.xcassets */; };
 		1CC8FE6029FCAAC3006A6284 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5F29FCAAC3006A6284 /* Preview Assets.xcassets */; };
+		1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE6829FD1105006A6284 /* BindingContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1CC8FE5A29FCAAC0006A6284 /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
 		1CC8FE5C29FCAAC3006A6284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC8FE5F29FCAAC3006A6284 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CC8FE6829FD1105006A6284 /* BindingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1CC8FE5829FCAAC0006A6284 /* PracticePropertyWrapperApp.swift */,
 				1CC8FE5A29FCAAC0006A6284 /* StateContentView.swift */,
+				1CC8FE6829FD1105006A6284 /* BindingContentView.swift */,
 				1CC8FE5C29FCAAC3006A6284 /* Assets.xcassets */,
 				1CC8FE5E29FCAAC3006A6284 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				1CC8FE5B29FCAAC0006A6284 /* StateContentView.swift in Sources */,
 				1CC8FE5929FCAAC0006A6284 /* PracticePropertyWrapperApp.swift in Sources */,
+				1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

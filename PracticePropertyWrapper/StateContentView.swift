@@ -9,8 +9,9 @@ import SwiftUI
 
 struct StateContentView: View {
     // @Stateの望ましい使用条件
-       // ①データが値型
-       // ②データの発生源がView自身
+       // ①値型のデータ
+       // ②データを更新し、発生源がView自身
+    // View固有の値なのでprivateをつける
     @State private var count = 0
 
     var body: some View {
