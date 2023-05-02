@@ -11,6 +11,7 @@ struct SwitchColorView: View {
     var body: some View {
         VStack {
             StateObjectCountView()
+            ObservedObjectCountView()
         }
     }
 }
@@ -22,6 +23,20 @@ struct StateObjectCountView: View {
     var body: some View {
         VStack {
             Text("StateObject count: \(dataSource.count)")
+            Button("increment") {
+                dataSource.count += 1
+            }
+        }
+    }
+}
+
+// @ObservedObjectを付与したデータオブジェクトを持つ構造体を定義
+struct ObservedObjectCountView: View {
+    @ObservedObject private var dataSource = DataSource()
+
+    var body: some View {
+        VStack {
+            Text("ObservedObject count: \(dataSource.count)")
             Button("increment") {
                 dataSource.count += 1
             }
