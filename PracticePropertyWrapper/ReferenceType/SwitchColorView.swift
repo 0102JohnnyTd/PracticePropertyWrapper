@@ -9,7 +9,23 @@ import SwiftUI
 
 struct SwitchColorView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            StateObjectCountView()
+        }
+    }
+}
+
+// @StateObjectを付与したデータオブジェクトを持つ構造体を定義
+struct StateObjectCountView: View {
+    @StateObject private var dataSource = DataSource()
+
+    var body: some View {
+        VStack {
+            Text("StateObject count: \(dataSource.count)")
+            Button("increment") {
+                dataSource.count += 1
+            }
+        }
     }
 }
 
