@@ -7,11 +7,25 @@
 
 import SwiftUI
 
+// ボタンをタップするとサークルのカラーが切り替わるViewを定義
 struct SwitchColorView: View {
+    @State private var isDanger = false
+
     var body: some View {
         VStack {
+            Spacer()
+            isDanger == true ? Circle().foregroundColor(.red)
+                .frame(width: 200, height: 200) :
+            Circle().foregroundColor(.green)
+                .frame(width: 200, height: 200)
+            Button("Change color") {
+                isDanger.toggle()
+            }
+            Spacer()
             StateObjectCountView()
+            Spacer()
             ObservedObjectCountView()
+            Spacer()
         }
     }
 }
