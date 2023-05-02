@@ -14,6 +14,7 @@
 		1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE6829FD1105006A6284 /* BindingContentView.swift */; };
 		1CC8FE6D29FDFBF9006A6284 /* StateObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */; };
 		1CC8FE7129FE5906006A6284 /* ObservedObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */; };
+		1CC8FE732A0099B9006A6284 /* SwitchColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE722A0099B9006A6284 /* SwitchColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1CC8FE6829FD1105006A6284 /* BindingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingContentView.swift; sourceTree = "<group>"; };
 		1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectContentView.swift; sourceTree = "<group>"; };
 		1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectContentView.swift; sourceTree = "<group>"; };
+		1CC8FE722A0099B9006A6284 /* SwitchColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */,
 				1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */,
+				1CC8FE722A0099B9006A6284 /* SwitchColorView.swift */,
 			);
 			path = ReferenceType;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				1CC8FE6D29FDFBF9006A6284 /* StateObjectContentView.swift in Sources */,
 				1CC8FE7129FE5906006A6284 /* ObservedObjectContentView.swift in Sources */,
 				1CC8FE5929FCAAC0006A6284 /* PracticePropertyWrapperApp.swift in Sources */,
+				1CC8FE732A0099B9006A6284 /* SwitchColorView.swift in Sources */,
 				1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
