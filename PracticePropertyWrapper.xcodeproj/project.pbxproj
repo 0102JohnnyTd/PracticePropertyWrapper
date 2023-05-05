@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2EE97B2A048A9600B00529 /* EnvironmentObjectContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2EE97A2A048A9600B00529 /* EnvironmentObjectContentView.swift */; };
 		1CC8FE5929FCAAC0006A6284 /* PracticePropertyWrapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5829FCAAC0006A6284 /* PracticePropertyWrapperApp.swift */; };
 		1CC8FE5B29FCAAC0006A6284 /* StateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5A29FCAAC0006A6284 /* StateContentView.swift */; };
 		1CC8FE5D29FCAAC3006A6284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC8FE5C29FCAAC3006A6284 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C2EE97A2A048A9600B00529 /* EnvironmentObjectContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectContentView.swift; sourceTree = "<group>"; };
 		1CC8FE5529FCAAC0006A6284 /* PracticePropertyWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticePropertyWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC8FE5829FCAAC0006A6284 /* PracticePropertyWrapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePropertyWrapperApp.swift; sourceTree = "<group>"; };
 		1CC8FE5A29FCAAC0006A6284 /* StateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				1CC8FE6C29FDFBF9006A6284 /* StateObjectContentView.swift */,
 				1CC8FE7029FE5906006A6284 /* ObservedObjectContentView.swift */,
 				1CC8FE722A0099B9006A6284 /* SwitchColorView.swift */,
+				1C2EE97A2A048A9600B00529 /* EnvironmentObjectContentView.swift */,
 			);
 			path = ReferenceType;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				1CC8FE6D29FDFBF9006A6284 /* StateObjectContentView.swift in Sources */,
 				1CC8FE7129FE5906006A6284 /* ObservedObjectContentView.swift in Sources */,
 				1CC8FE5929FCAAC0006A6284 /* PracticePropertyWrapperApp.swift in Sources */,
+				1C2EE97B2A048A9600B00529 /* EnvironmentObjectContentView.swift in Sources */,
 				1CC8FE732A0099B9006A6284 /* SwitchColorView.swift in Sources */,
 				1CC8FE6929FD1106006A6284 /* BindingContentView.swift in Sources */,
 			);
