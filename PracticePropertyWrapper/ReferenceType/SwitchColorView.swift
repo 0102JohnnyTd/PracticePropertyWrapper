@@ -15,6 +15,7 @@ struct SwitchColorView: View {
     var body: some View {
         VStack {
             Spacer()
+            Text("親View")
             // true = 赤色, false = 緑色
             isDanger == true ? Circle().foregroundColor(.red)
                 .frame(width: 200, height: 200) :
@@ -42,6 +43,7 @@ struct StateObjectCountView: View {
 
     var body: some View {
         VStack {
+            Text("子View")
             Text("StateObject count: \(dataSource.count)")
             Button("increment") {
                 dataSource.count += 1
@@ -60,6 +62,7 @@ struct ObservedObjectCountView: View {
 
     var body: some View {
         VStack {
+            Text("子View")
             Text("ObservedObject count: \(dataSource.count)")
             Button("increment") {
                 dataSource.count += 1
