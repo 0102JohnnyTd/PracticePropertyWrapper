@@ -10,23 +10,37 @@ import SwiftUI
 // ボタンをタップするとサークルのカラーが切り替わるViewを定義
 struct SwitchColorView: View {
     // 値型のデータをView自身に保持させるnode@Stateを使用
-    @State private var isDanger = false
+    @State private var isFire = false
 
     var body: some View {
         VStack {
             Spacer()
             Text("親View")
             // true = 赤色, false = 緑色
-            isDanger == true ? Circle().foregroundColor(.red)
-                .frame(width: 200, height: 200) :
-            Circle().foregroundColor(.green)
-                .frame(width: 200, height: 200)
+            isFire == true ?
+            // systemImage以外のサイズ変更処理
+//            Image("Hoge")
+            // SwiftUIでImageを任意のサイズで表示したい場合はresizableを使用する必要あり
+//                .resizable()
+//                .frame(width: 200, height: 200)
+
+            Image(systemName: "flame")
+                .font(.system(size: 200))
+                .foregroundColor(.none)
+            :
+            Image(systemName: "flame.fill")
+                .font(.system(size: 200))
+                .foregroundColor(.red)
+//            isChecked == true ? Circle().foregroundColor(.red)
+//                .frame(width: 200, height: 200) :
+//            Circle().foregroundColor(.green)
+//                .frame(width: 200, height: 200)
 
             // 処理を実行するとデータに変更が加えられる為,bodyが再描画される
             // bodyが再描画されると@ObservedObjectのライフサイクルが呼ばれる
-            Button("Change color") {
+            Button("Change") {
                 // isDangerのBool値を反転させる
-                isDanger.toggle()
+                isFire.toggle()
             }
             Spacer()
             StateObjectCountView()

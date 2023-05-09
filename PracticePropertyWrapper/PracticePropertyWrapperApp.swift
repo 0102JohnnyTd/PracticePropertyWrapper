@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticePropertyWrapperApp: App {
     var body: some Scene {
         WindowGroup {
-            StateContentView()
+            ParentView()
         }
     }
 }
